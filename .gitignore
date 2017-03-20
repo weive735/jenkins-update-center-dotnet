@@ -1,3 +1,6 @@
-bin/ 
-obj/ 
-export/ 
+bin/
+obj/
+export/
+.vs/
+rootCA/my-update-center.key
+.bowerrc
