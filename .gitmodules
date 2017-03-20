@@ -1,3 +1,4 @@
-[submodule "src\\ikedam-backend-update-center2"]
-	path = src\\ikedam-backend-update-center2
+[submodule "src/ikedam-backend-update-center2"]
+	path = src/ikedam-backend-update-center2
 	url = https://github.com/ikedam/backend-update-center2.git
+	branch = master

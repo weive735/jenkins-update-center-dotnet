@@ -1,7 +1,7 @@
 @setlocal
 @echo off
 
-set PATH=%~dp0\tool\apache-maven-3.3.9\bin;%PATH%
+set PATH=%~dp0tool\apache-maven-3.3.9\bin;%PATH%
 set export_dir=%~dp0export\win7-x64
 
 echo === Build Instant Web Server of ASP.NET Core ====

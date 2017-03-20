@@ -1,5 +1,7 @@
 @setlocal 
 
+set PATH=%~dp0tool\apache-maven-3.3.9\bin;%PATH%
+
 set WWW_ROOT=..\server\wwwroot
 set REPO_URL=http://localhost:5000
 
