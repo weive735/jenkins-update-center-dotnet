@@ -9,15 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="wwwroot\download\plugins\msbuild\1.27\index.html" />
-    <Content Include="wwwroot\download\plugins\msbuild\1.27\msbuild.hpi" />
-    <Content Include="wwwroot\download\plugins\msbuild\1.27\msbuild.zip" />
-    <Content Include="wwwroot\download\plugins\structs\1.6\structs.hpi" />
-    <Content Include="wwwroot\download\plugins\structs\1.6\structs.zip" />
-    <Content Include="wwwroot\update-center - コピー.json">
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="wwwroot\update-center.json" />
+    <Compile Remove="wwwroot\download\**" />
+    <Content Remove="wwwroot\download\**" />
+    <EmbeddedResource Remove="wwwroot\download\**" />
+    <None Remove="wwwroot\download\**" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
@@ -26,7 +21,6 @@
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
-    <PackageReference Include="NuGet.CommandLine" Version="3.5.0" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
