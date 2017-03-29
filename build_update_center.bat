@@ -19,5 +19,5 @@ set args=%args% -pretty
 set args=%args% -www "%WWW_ROOT%"
 
 pushd export\win7-x64\backend-update-center2 || exit /b 1
-mvn exec:java -Dexec.args="%args%"
+mvn exec:java -Dmaven.repo.local=%~dp0.m2/repository -Dexec.args="%args%"
 popd
