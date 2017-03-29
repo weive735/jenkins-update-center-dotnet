@@ -4,3 +4,4 @@ export/
 .vs/
 rootCA/my-update-center.key
 .bowerrc
+.m2/ 
