@@ -1,5 +1,6 @@
 pipeline {
-  node {
+  agent any
+  stages {
     stage ('build') {
       bat 'hello world'
     }
