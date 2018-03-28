@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages {
     stage ('build') {
-      step {
+      steps {
         bat 'hello world'
       }
     }
